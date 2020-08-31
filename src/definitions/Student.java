@@ -143,6 +143,9 @@ public class Student {
         }
     }
 
+    /**
+     * This method shows all the books issued by a particular student.
+     */
     public void myBooks() {
         System.out.println("Name: " + nameOfStudent);
         if (noOfBooksIssued == 0) {
