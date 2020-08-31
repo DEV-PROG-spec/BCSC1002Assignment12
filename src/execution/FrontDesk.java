@@ -18,6 +18,11 @@ public class FrontDesk {
         Library library = new Library();
         int clientInput;
         Student student = new Student();
+        System.out.println("What's your good name?");
+        String nameOfStudent = scanner.nextLine();
+        System.out.println("University Roll number is Required:");
+        Long universityRollNo = scanner.nextLong();
+        scanner.nextLine();
         do {
             System.out.println("-=-=--=-=-" + "Welcome To The Front Desk" + "-=-=--=-=");
             System.out.println("1. Issue a new book for me.");

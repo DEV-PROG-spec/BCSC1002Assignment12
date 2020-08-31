@@ -96,7 +96,7 @@ public class Student {
             System.out.println("What's your good name?");
             nameOfStudent = scanner.nextLine();
             System.out.println("University Roll number is Required:");
-            universityRollNo = scanner.nextInt();
+            universityRollNo = scanner.nextLong();
             scanner.nextLine();
             System.out.println("Which book do you want to issued?");
             String bookName = scanner.nextLine();
