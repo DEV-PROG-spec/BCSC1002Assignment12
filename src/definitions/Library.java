@@ -12,9 +12,9 @@ public class Library {
     Book[] booksCurrentlyAvailable;
 
     public Library() {
-        this.booksCurrentlyAvailable = new Book[2];
+        this.booksCurrentlyAvailable = new Book[10];
         for (int i = 0; i < booksCurrentlyAvailable.length; i++) {
-            booksCurrentlyAvailable[i] = new Book();
+            booksCurrentlyAvailable[i] = new Book("BOOK" + (i + 1), "abc" + (i + 1));
         }
     }
 
@@ -49,6 +49,10 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(getBooksCurrentlyAvailable());
     }
+
+    /**
+     * This method return all books present in Library.
+     */
 
     public void allBooksInLibrary() {
         for (Book allBooks : booksCurrentlyAvailable) {
