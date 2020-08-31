@@ -87,6 +87,10 @@ public class Student {
         return result;
     }
 
+    /**
+     * This methods helps Students to issue books
+     * A student can issue atmost 2 books at a time
+     */
     public void issueBook() {
         if (noOfBooksIssued == 0) {
             System.out.println("What's your good name?");
@@ -114,6 +118,9 @@ public class Student {
         }
     }
 
+    /**
+     * This method helps students to return books
+     */
     public void returnBook() {
         if (noOfBooksIssued == 0) {
             System.out.println("How can you return a book,you haven't issued any book yet.");
