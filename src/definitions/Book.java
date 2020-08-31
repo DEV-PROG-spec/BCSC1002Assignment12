@@ -13,10 +13,10 @@ public class Book {
     private String nameOfTheAuthor;
     private String ISBNNumber;
 
-    public Book(){
-        this.nameOfTheBook="NOT FOUND";
-        this.nameOfTheAuthor="NOT FOUND";
-        this.ISBNNumber="NOT FOUND";
+    public Book() {
+        this.nameOfTheBook = "NOT FOUND";
+        this.nameOfTheAuthor = "NOT FOUND";
+        this.ISBNNumber = "NOT FOUND";
     }
 
     public Book(String nameOfTheBook, String nameOfTheAuthor) {
