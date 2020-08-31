@@ -19,9 +19,9 @@ public class Book {
         this.ISBNNumber="NOT FOUND";
     }
 
-    public Book(String nameOfTheBook,String nameOfTheAuthor) {
-        this.nameOfTheBook=nameOfTheBook;
-        this.nameOfTheAuthor=nameOfTheAuthor;
+    public Book(String nameOfTheBook, String nameOfTheAuthor) {
+        this.nameOfTheBook = nameOfTheBook;
+        this.nameOfTheAuthor = nameOfTheAuthor;
     }
 
     public void setNameOfTheBook(String nameOfTheBook) {
